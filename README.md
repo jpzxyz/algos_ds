@@ -30,3 +30,26 @@ Changing the range from 1 to 10 to 1 to n changes the number of steps to:
 f(n) = 1 + 1 + 2(n)
 
 The additional + 1 is for naming the variable n
+
+### The Size of the Problem
+
+f(n) = 2 + 2(n) 
+
+n in this equation represents the size of the problem.
+In mathematical notation this is shown as
+
+T(n) = 2 + 2(n)
+
+__nested1.py__
+
+This algorithm features two loops. 
+The first loop is flat, but the second contains a loop, nested within a loop, nested within a loop. 
+
+The size of this problem is
+
+T(n) = n + n^3
+
+Clearly, the complexity in the second loop dominates the first.
+So much so, that counting the steps in the first loop is trivial.
+We will honor counting steps for the foundation it provides, but abandon it for the more relevant measurement of the size of the problem: The order of magnitude.
+We'll measure order of magnitude using Big O notation, which is a way to express an algorithm's efficency.
