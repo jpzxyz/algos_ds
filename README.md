@@ -18,3 +18,8 @@ Tracks how long the computer takes to print the given range.
 Given a range of 1 to 10, this straightforward algorithm requires 10 steps to complete.
 f(n) = 10
 
+__time2.py__
+
+This algorithm initates a count variable and increments the count variable after printing 'i'.
+Given a range of 1 to 10, this algorithm has 21 steps. 
+f(n) = 1 + 10 + 10
