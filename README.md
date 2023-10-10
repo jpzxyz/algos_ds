@@ -23,3 +23,10 @@ __time2.py__
 This algorithm initates a count variable and increments the count variable after printing 'i'.
 Given a range of 1 to 10, this algorithm has 21 steps. 
 f(n) = 1 + 10 + 10
+
+__time3.py__
+
+Changing the range from 1 to 10 to 1 to n changes the number of steps to:
+f(n) = 1 + 1 + 2(n)
+
+The additional + 1 is for naming the variable n
